@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+   <meta charset="utf-8">
+
+   <title>고릴라 오토리스</title>
+
+   <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-
+    Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style type="text/css">
+         body{
+           margin: 0;
+           color: white;
+         }
+
+         #first_img{
+           background-image:url('img/12.png');
+           background-repeat: no-repeat;
+           -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: cover;
+         }
+
+         #second_img {
+           background-image:url('img/12.png');
+           background-repeat: no-repeat;
+           -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: cover;
+         }
+
+         #third_img {
+           background-image:url('img/12.png');
+           background-repeat: no-repeat;
+           -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: cover;
+         }
+
+         #table_logo {
+           max-width: 100px;
+         }
+
+         th{
+           text-align: center;
+         }
+
+         .white_line {
+           border: solid 0.5px white;
+           width:50%;
+         }
+
+         .top_image {
+           min-width: 100%;
+         }
+
+         #contents, #top_image {
+           background-color: rgba( 0, 0, 0, 0.5 );
+         }
+
+         #myVideo {
+             position: fixed;
+             right: 0;
+             bottom: 0;
+             min-width: 100%;
+             min-height: 100%;
+             z-index: -1;
+         }
+
+         @media (min-width: 768px) {
+             p{
+               font-size: 110%;
+             }
+         }
+       </style>
+     </head>
+ <body>
+   <video autoplay muted loop id="myVideo">
+      <source src="video/benz.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+   <div class="container-fluid py-5 text-center" id="top_image">
+      <img class="img-fluid pt-5" src="img/logo.png" style="max-height:300px;">
+      <h2 class="py-4" style="color:white;">고객을 위한 "진짜" 좋은 견적 비교 팁!</h2>
+      </div>
+
+      <!-- first contents -->
+  <div class="container-fluid" id="first_img">
+      <div class="container py-3">
+        <div class="row mt-4">
+          <div class="col mt-5 px-3">
+            <h3 class="text-light">1. 리스&렌트 상담용어</h3>
+            <hr align="left" class="white_line">
+            <p>보증금 : 계약기간 만료 후 돌려받으시는 금액(월비용에는 큰 영향이 없음)</p>
+
+            <p>선수금 : 이용금액을 먼저 선납하여 월불입금을 낮추는 목적의 금액(계약기간 만료 후 돌려받지 못함)</p>
+
+            <p>잔존가치 : 금융사에서 정해놓은 계약기간 만료 후 차량의 가치(계약기간 만료 후 원금으로 산정 됨)</p>
+
+            <p>페널티 : 차량 반납 또는 중도해지 시 이용자에게 부과되는 금액</p>
+            <ul>
+              <li>약정운행거리 초과 페널티</li>
+              <li>중도해지 시 발생하는 중도해지 페널티</li>
+              <li>반환지연 페널티 등</li>
+              </ul>
+              <p class="font-italic">Q. 고잔가견적, 과연 "진짜"좋은 견적일까요?</p>
+              <p class="font-italic">A. 잔존가치가 높게 책정 된 고잔가 견적은 월비용이 낮아 보이지만<br>인수 여부에 상관없이 계약기간 만료 후 손해가 발생하기 때문에<br>좋은 견적이라고 할 수 없습니다.
+              </p>
+            </div>
+           </div>
+         </div>
+<div class="container py-1">
+        <div class="row mt-4">
+          <div class="col mt-5 px-3 text-right">
+            <h3 class="text-light">2. 고객 상황별 맞춤 견적(상담)</h3>
+            <hr align="right" class="white_line">
+            <p>인수가 목적일 때 : 월비용에 상관없이 총 인수까지의 비용이 적은 견적이 유리</p>
+            <p>반납이 목적일 때 : 이용하는 동안 지불하는 비용이 가장 적은 견적이 유리</p>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-3 pb-5">
+        <div class="row mt-4">
+          <div class="col mt-5 px-3">
+            <h3 class="text-light">3. 대한민국 최저가 견적,<br>최고의 승인률</h3>
+            <hr align="left" class="white_line">
+            <p>대한민국 최저가</p>
+            <p>현존 최고의 승인률</p>
+            <p>고릴라오토리스와</p>
+            <p>함께하세요.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second contents
+        <div class="container-fluid" id="second_img">
+        </div>-->
+        <!-- third contents -->
+        <div class="container-fluid" id="third_img">
+          <div class="container py-5">
+            <div class="row mt-4">
+              <div class="col mt-5 px-3 text-right">
+                <h3 class="text-light">4. 신용 상관없는 저신용 렌트<br>프로그램 제공</h3>
+                <hr align="right" class="white_line">
+                <p>신용걱정없이 신청하세요!</p>
+                <p>고객님을 위한 저신용 렌트 프로그램을 제공합니다.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container pt-3 pb-5">
+                  <div class="row mt-4">
+                    <div class="col mt-5 px-3">
+                      <h3 class="text-light">5. 여기에 더해 고객님께 드리는<br>큰 혜택!</h3>
+                      <hr align="left" class="white_line">
+                      <img class="my-3" width="80px" src="img/logo.png">
+                      <p>초기비용을 자유롭게 (0% ~ 50% 까지)</p>
+                      <p>국내 전체 금융사 견적 비교.</p>
+                      <p>만족스러운 기존 보유차량 처리 (약 20여개 업체를 통한 경매 시스템)</p>
+                      <p>긴급 대차 서비스</p>
+                      <p>저신용 렌트프로그램</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="container pt-5 pb-5 text-center">
+                        <div class="row">
+                          <div class="col my-3">
+                            <hr>
+                            <h1>지금 신청하세요!</h1>
+                            <hr class="white_line">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="contents">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-md">
+              <div class="row text-center">
+                <div class="col mb-5">
+                  <img id="table_logo" class="img-fluid" src="img/logo.png">
+
+                </div>
+                           </div>
+                           <table class="table">
+                             <thead>
+                               <th class="text-center" colspan="2"><h5>개인정보</h5></th>
+                             </thead>
+                             <tbody>
+                               <tr>
+                                 <th>이름 <span class="text-danger">*</span></th>
+                                 <td>
+                                   <input type="text" class="form-control form-control-sm" id="name" placeholder="이름 입력">
+                                 </td>
+                               </tr>
+                               <tr>
+                                 <th>연락처 <span class="text-danger">*</span></th>
+                                 <td>
+                                   <input type="text" class="form-control form-control-sm" id="contact_num" placeholder="- 없이 입력">
+                                 </td>
+                               </tr>
+                               <tr>
+                                 <th>이메일 <span class="text-danger">*</span></th>
+                                 <td>
+                                   <input type="email" class="form-control form-control-sm" id="email" aria-describedby="emailHelp" placeholder="이메일 입력">
+                                 </td>
+                               </tr>
+                             </tbody>
+                             <thead>
+                               <th class="text-center" colspan="2"><h5>구매정보</h5></th>
+                             </thead>
+                                           <tbody>
+                                             <tr>
+                                               <th>거주지역</th>
+                                               <td>
+                                                 <div class="dropdown">
+                                                   <button class="btn btn-sm btn-outline-light dropdown-toggle" type="button" id="residence" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                     거주지역 선택
+                                                   </button>
+                                                   <div class="dropdown-menu" aria-labelledby="residence">
+                                                     <button class="dropdown-item" type="button">서울특별시</button>
+                                                     <button class="dropdown-item" type="button">부산광역시</button>
+                                                     <button class="dropdown-item" type="button">대구광역시</button>
+                                                     <button class="dropdown-item" type="button">인천광역시</button>
+                                                     <button class="dropdown-item" type="button">광주광역시</button>
+                                                     <button class="dropdown-item" type="button">대전광역시</button>
+                                                     <button class="dropdown-item" type="button">울산광역시</button>
+                                                     <button class="dropdown-item" type="button">경기도</button>
+                                                     <button class="dropdown-item" type="button">강원도</button>
+                                                     <button class="dropdown-item" type="button">충청북도</button>
+                                                     <button class="dropdown-item" type="button">충청남도</button>
+                                                     <button class="dropdown-item" type="button">전라북도</button>
+                                                     <button class="dropdown-item" type="button">전라남도</button>
+                                                     <button class="dropdown-item" type="button">경상북도</button>
+                                                     <button class="dropdown-item" type="button">경상남도</button>
+                                                     <button class="dropdown-item" type="button">제주도</button>
+                                                   </div>
+                                                 </div>
+                                               </td>
+                                             </tr>
+                                             <tr>
+                                               <th>구매형태</th>
+                                               <td>
+                                                 <div class="dropdown">
+                                                   <button class="btn btn-sm btn-outline-light dropdown-toggle" type="button" id="purchase_type" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                     구매형태 선택
+                                                   </button>
+                                                   <div class="dropdown-menu" aria-labelledby="purchase_type">
+                                                     <button class="dropdown-item" type="button">신차리스</button>
+                                                     <button class="dropdown-item" type="button">장기렌트</button>
+                                                     <button class="dropdown-item" type="button">할부</button>
+                                                     <button class="dropdown-item" type="button">현금일시불</button>
+                                                   </div>
+                                                 </div>
+                                                 <input type="number" class="form-control form-control-sm mt-2" id="price" placeholder="할부 시 선수금" min="0">
+                                               </td>
+                                             </tr>
+                                             <tr>
+                                               <th>선호차종(희망차종)</th>
+                                               <td>
+                                                 <input type="text" class="form-control form-control-sm" id="hope_car" placeholder="희망차종 입력">
+                                               </td>
+                                             </tr>
+                                             <tr>
+                                               <th>보증금</th>
+                                               <td>
+                                                 <div class="dropdown">
+                                                   <button class="btn btn-sm btn-outline-light dropdown-toggle" type="button" id="deposit" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                     비율 선택
+                                                   </button>
+                                                   <div class="dropdown-menu" aria-labelledby="deposit">
+                                                     <button class="dropdown-item" type="button">0%</button>
+                                                     <button class="dropdown-item" type="button">10%</button>
+                                                     <button class="dropdown-item" type="button">20%</button>
+                                                     <button class="dropdown-item" type="button">30%</button>
+                                                     <button class="dropdown-item" type="button">40%</button>
+                                                     <button class="dropdown-item" type="button">50%</button>
+                                                   </div>
+                                                 </div>
+                                               </td>
+                                             </tr>
+                                             <tr>
+                                               <th>이용개월수</th>
+                                               <td>
+                                                 <div class="dropdown">
+                                                   <button class="btn btn-sm btn-outline-light dropdown-toggle" type="button" id="use_period" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                     이용개월 선택
+                                                   </button>
+                                                   <div class="dropdown-menu" aria-labelledby="use_period">
+                                                     <button class="dropdown-item" type="button">12</button>
+                                                     <button class="dropdown-item" type="button">24</button>
+                                                     <button class="dropdown-item" type="button">36</button>
+                                                     <button class="dropdown-item" type="button">44</button>
+                                                     <button class="dropdown-item" type="button">48</button>
+                                                     <button class="dropdown-item" type="button">55</button>
+                                                     <button class="dropdown-item" type="button">60</button>
+                                                   </div>
+                                                 </div>
+                                               </td>
+                                             </tr>
+                                             <tr>
+                                               <th>기타문의</th>
+                                               <td colspan="2">
+                                                 <div class="form-group">
+                                                   <textarea id="etc_text" class="form-control" rows="5"></textarea>
+                                                 </div>
+                                               </td>
+                                             </tr>
+                                             <tr>
+                                               <td class="text-center" colspan="2">
+                                                 <h3><개인정보의 수집 및 이용에 대한 안내></h3>
+                                                 <p>수집항목 : 이름, 연락처, 이메일, 거주지<br>수집목적 : 문의접수 및 결과회신<br>이용기간 : 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에 해당정보를 지체없이 파기합니다.<br>단, 관계법령의 규정에 의하여 보전할 필요가 있는 경우 일정기간 동안 개인정보를 보관할 수 있습니다.<br>그 밖의 고릴라오토리스는 개인정보취급방침을 준수합니다.</p>
+                                                 <input type="checkbox" id="agree_check" name="agree_check" value="agree_check">
+                                                 <label for="agree_check">개인정보 수집이용에 동의합니다.</label>
+                                               </td>
+                                             </tr>
+                                             <tr>
+                                               <td class="text-center" colspan="2">
+                                                 <button id="send_mail" type="submit" class="btn btn-primary">보내기</button>
+                                               </td>
+                                             </tr>
+                                           </tbody>
+                                         </table>
+                                       </div>
+                                     </div>
+                                   </div>
+                                 </div>
+                                 <!-- Bootstrap core JavaScript
+                                     ================================================== -->
+                                     <!-- Placed at the end of the document so the pages load faster -->
+                                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                                   </body>
+                                   <script type="text/javascript">
+                                   function sendJunghoMail(mail_to, mail_subject, mail_text_html){
+                                       var data = "mail_to="+mail_to+"&mail_subject="+mail_subject+"&mail_text_html="+mail_text_html;
+
+                                       $.ajax({
+                                         url:'/func/sendmail',
+                                         dataType:'json',
+                                         type:'post',
+                                         data: data,
+                                         success:function(data){
+                                           console.log(data);
+                                         }
+                                       })
+                                       }
+
+                                     $(document).on('click', '#send_mail', function(){
+                                       if($('#name').val().length < 1 ){
+                                         alert('이름을 입력해 주세요');
+                                         return;
+                                       }else if($('#contact_num').val().length < 1){
+                                         alert('연락처를 입력해 주세요');
+                                         return;
+                                       }else if($('#email').val().length < 1){
+                                         alert('이메일주소를 입력해 주세요');
+                                         return;
+                                       }else if(!$('#agree_check').is(':checked')){
+                                         alert('개인정보 수집 동의에 채크해주세요.');
+                                         return;
+                                       }
+                                       var htmlcode = '<table class="table">'+
+                                                 '<thead><th class="text-center" colspan="2"><h5>개인정보</h5></th></thead>'+
+                                                 '<tbody>'+
+                                                   '<tr><th>이름</th><td>'+ $('#name').val() +'</td></tr>'+
+                                                   '<tr><th>연락처</th><td>'+ $('#contact_num').val() +'</td></tr>'+
+                                                   '<tr><th>이메일</th><td>'+ $('#email').val() +'</td></tr>'+
+                                                 '</tbody>'+
+                                                 '<thead><th class="text-center" colspan="2"><h5>구매정보</h5></th></thead>'+
+                                                 '<tbody>'+
+                                                   '<tr><th>거주지역</th><td>'+ $('#residence').text() +'</td></tr>'+
+                                                   '<tr><th>구매형태</th><td>'+ $('#purchase_type').text() +'</td></tr>'+
+                                                   '<tr><th>할부시 선수금</th><td>'+ $('#price').val() +'</td></tr>'+
+                                                   '<tr><th>선호차종(희망차종)</th><td>'+ $('#hope_car').val() +'</td></tr>'+
+                                                   '<tr><th>보증금</th><td>'+ $('#deposit').text() +'</td></tr>'+
+                                                   '<tr><th>이용개월수</th><td>'+ $('#use_period').text() +'</td></tr>'+
+                                                   '<tr><th>기타문의</th><td>'+ $('#etc_text').val() +'</td></tr>'+
+                                                 '</tbody>'+
+                                               '</table>';
+                                      sendJunghoMail('jhyoum98@gmail.com', $('#name').val()+' 고객님 신청서입니다.', htmlcode);
+                                       alert('메일이 전송되었습니다. 감사합니다.');
+                                       location.reload();
+                                     });
+
+                                     $(document).on("click", ".dropdown-item", function(){
+                                       var selected_item = $(this).text();
+                                       $(this).parents(".dropdown-menu").siblings().text(selected_item);
+                                     });
+                                   </script>
+                                 </html>
